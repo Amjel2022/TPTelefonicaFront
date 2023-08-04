@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- Links CSS y Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Estilos/estilo.css">
+    <!-- Link de icono -->
+    <link rel="icon" href="../Imagenes/logo.png">
+</head>
+<body>
+    <!-- Fondo y margenes de la página -->
+    <body class="container" style="
+        margin-top: 10px;
+        background-color: rgb(184, 184, 228);
+    ">
+        <!-- Título de la página -->
+        <div class="alert alert-primary text-center" role=""alert 
+            style="background-color: #66eebc;
+            border: 2px solid #05cd84;
+            border-radius: 5px 5px 0 0;
+            ">
+            
+            <h1 class="fw-bold" 
+                style="color: blue;
+                font-variant: small-caps;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                margin-top: 5px;
+                ">Instituto Protón</h1>
+        </div>
+        <!-- ------NAVBAR------ -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
+            <div class="container-fluid" 
+                style= "border: 2px solid #05cd84; 
+                border-radius: 0 0 5px 5px; 
+                margin-top: -25px;
+                padding: 10px 0 10px 0;
+                background-color: white;
+                ">
+                <!-- Logo del navbar -->
+                <a href="../index.html"> <img src="../Imagenes/logo.png" alt="Logo" width="80px" height="80px" class="d-inline-block" style="padding: 5px;"> </a>
+                <!-- Fin de logo -->
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Items -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="./presentacion.html">Presentación</a>
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                    <a class="nav-link" href="./quienesSomos.html">Quienes Somos</a>
+                    </div>
+                </div>
+
+                <!-- Buscador y botón buscar -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="¿Qué deseas buscar?" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <!-- FIN DE NAVBAR -->
+            </div>
+        </nav>
+
+        <!-- CONTENIDO DE LA PÁGINA-->
+        <div class="container" style="margin: 30px 0 10px 0;">
+            <div class="row">
+                <!-- Entradas del blog-->
+                <div class="col-lg-8">
+                    <!-- Foto principal del Blog-->
+                    <div class="card mb-4">
+                        <a href="#!"><img class="card-img-top" src="../Imagenes/clases1.jpg" alt="Clases" /></a>
+                        <div class="card-body">
+                            <div class="small text-muted">Agosto 2023</div>
+                            <h2 class="card-title">Inicio del Segundo Cuatrimestre</h2>
+                            <p class="card-text">Unite a nuestra comunidad de estudiantes del Instituto Protón!! Podes acceder a todos nuestros grupos de estudio de todas las materias para reforzar tu aprendizaje!!</p>
+                            <a class="btn btn-primary" href="#!" style="background-color: #66eebc; font-weight: bolder;">Saber más ➡️</a>
+                        </div>
+                    </div>
+                    <!-- Contenido de las CARDS -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Card Matemática -->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="../Imagenes/matematica1.png" alt="Grupos de matemática" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">Agosto 2023</div>
+                                    <h2 class="card-title h4">Grupo estudio: Matemática</h2>
+                                    <p class="card-text">Porque aprender en grupo es mejor, conoce nuestros grupos de Matemática.</p>
+                                    <a class="btn btn-primary" href="#!" style="background-color: #66eebc; font-weight: bolder;">Ver más ➡️</a>
+                                </div>
+                            </div>
+                            <!-- Card Física -->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="../Imagenes/fisica.png" alt="Grupos de Física" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">Agosto 2023</div>
+                                    <h2 class="card-title h4">Grupo estudio: Física</h2>
+                                    <p class="card-text">Porque aprender en grupo es mejor, conoce nuestros grupos de Física.</p>
+                                    <a class="btn btn-primary" href="#!" style="background-color: #66eebc; font-weight: bolder;">Ver más ➡️</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- Card Química -->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="../Imagenes/quimica2.png" alt="Grupos de Química" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">Agosto 2023</div>
+                                    <h2 class="card-title h4">Grupo estudio: Química</h2>
+                                    <p class="card-text">Porque aprender en grupo es mejor, conoce nuestros grupos de Química</p>
+                                    <a class="btn btn-primary" href="#!" style="background-color: #66eebc; font-weight: bolder;">Ver más ➡️</a>
+                                </div>
+                            </div>
+                            <!-- Card Biología -->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="../Imagenes/biologia1.png" alt="Grupos de Biología" style="width: 400px; height: 255px;" /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">Agosto 2023</div>
+                                    <h2 class="card-title h4">Grupo estudio: Biología</h2>
+                                    <p class="card-text">Porque aprender en grupo es mejor, conoce nuestros grupos de Biología</p>
+                                    <a class="btn btn-primary" href="#!" style="background-color: #66eebc; font-weight: bolder;">Ver más ➡️</a>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                    
+                  <!-- Pagination-->
+                    <nav aria-label="Pagination">
+                        <hr class="my-0" />
+                        <ul class="pagination justify-content-center my-4">
+                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Reciente</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!" style="background-color: #66eebc;">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                            <li class="page-item"><a class="page-link" href="#!" style="color: #05cd84;">Pasado</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <!-- WIDGETS -->
+                <div class="col-lg-4">
+                    <!-- Buscar-->
+                    <div class="card mb-4">
+                        <div class="card-header" style="font-size: 25px; font-variant: small-caps; font-weight: bolder;">Buscar</div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="¿Qué deseas buscar?" aria-label="Escribe tu búsqueda" aria-describedby="button-search" />
+                                <button class="btn btn-primary" id="button-search" type="button" style="background-color: #66eebc;">🔍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Categorías de los widget-->
+                    <div class="card mb-4">
+                        <div class="card-header" style="font-size: 25px; font-variant: small-caps; font-weight: bolder;">Categorías</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">Home</a></li>
+                                        <li><a href="#!">Presentación</a></li>
+                                        <li><a href="#!">Blog</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">Quienes Somos</a></li>
+                                        <li><a href="#!">Libros útiles</a></li>
+                                        <li><a href="#!">Tabla Periódica</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CARD widget-->
+                    <div class="card mb-4">
+                        <div class="card-header" style="font-size: 25px; font-variant: small-caps; font-weight: bolder;">Nuestros Horarios</div>
+                        <div class="card-body">Reserva tus horarios para clases individuales o grupales según más te convenga, en las materias que quieras.
+                            <div class="card " style="width: 18rem; margin: 15px auto 15px auto;">
+                                <img src="../Imagenes/calendario.png" class="card-img-top" alt="Calendario">
+                                <div class="card-body">
+                                  <h5 class="card-title">Reserva tus clases:</h5>
+                                  <p class="card-text">Consulta por horarios en todas las materias y cursos que dictamos.</p>
+                                  <a href="#" class="btn btn-primary" style="background-color: #66eebc; font-weight: bolder;">Saber más ➡️</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FOOTER-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Angeloz Diseño 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        
+
+        <script src="../js/bootstrap.bundle.min.js"></script>  
+
+</body>
+</html>
