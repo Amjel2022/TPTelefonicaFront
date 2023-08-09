@@ -52,6 +52,7 @@ h5 {
     height: 350px;
 }
 
+/* Lista página CV */
 li {
     list-style-type: none;
 }
@@ -63,7 +64,7 @@ li {
     font-size: 20px;
 }
 
-/* QUERYS -- RESPONSIVE */
+/* QUERYS -- RESPONSIVE -- página Docentes (CV)*/
 @media (max-width: 760px) {
     .contenido1 {
     display: flex;
