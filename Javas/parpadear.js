@@ -1,9 +1,6 @@
-window.setInterval (BlinkIt, 500);
-  var color = "red";
-
-  function BlinkIt () {
-    var blink = document.getElementById ("blink");
-    color = (color == "azure")? "red" : "azure";
-    blink.style.color = color;
-    blink.style.fontSize='25px';
+timer();
+function timer() {
+    let blink = document.getElementById("blink");
+    blink.style.opacity = blink.style.opacity == 0 ? 1 : 0;
+    setTimeout(timer, 500);
   }

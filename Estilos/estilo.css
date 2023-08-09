@@ -15,7 +15,6 @@
     font-weight: bolder;
     font-size: 20px;
     margin-right: 40px;
-
 }
 
 /* Estilos del contenedor de buscador y boton */
@@ -30,7 +29,10 @@ h5 {
     font-weight: bolder;
     font-size: 20px;
 }
-/* títulos cards blog */
+
+.parpadear a {
+    text-decoration: none;
+}
 
 /* PÁGINA DOCENTES */
 .contenido1 {
@@ -52,7 +54,6 @@ h5 {
     height: 350px;
 }
 
-/* Lista página CV */
 li {
     list-style-type: none;
 }
